@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-color: rgb(28, 38, 66);
+}
+
+
+h1{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 5rem;
+    color: rgb(253, 255, 205);
+}
+
+.button{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+
+.container{
+    margin-left: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background: blue;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
